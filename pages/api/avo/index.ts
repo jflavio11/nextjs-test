@@ -1,5 +1,5 @@
-import Db from "@database";
 import { IncomingMessage, ServerResponse } from "http";
+import Db from "@database";
 
 const allAvos = async(req: IncomingMessage, res: ServerResponse) => {
     const db = new Db()
