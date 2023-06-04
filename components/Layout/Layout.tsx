@@ -1,4 +1,4 @@
-import Navbar from 'components/Navbar/Navbar';
+import Navbar from '@components/Navbar/Navbar';
 import React from 'react';
 
 
@@ -9,7 +9,7 @@ type LayoutProps = {
 // stateless component
 const Layout: React.FC<LayoutProps> = ({ children }) => {
     return (
-        <div>
+        <div className='container'>
             <Navbar/>
             {children}
             <br></br>
