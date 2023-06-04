@@ -5,7 +5,7 @@ const HomePage = () => {
 
   const [productList, setProductList] = useState<TProduct[]>([])
 
-  useEffect(() => {
+  useEffect(() => { // always executed in browser (client side rendered)
     window
     .fetch('api/avo')
     .then(response => response.json())
