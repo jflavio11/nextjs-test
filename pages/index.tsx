@@ -17,7 +17,6 @@ const HomePage = () => {
 
   return (
     <div>
-      <Navbar />
       <div>Hello Next.js!</div>
       {productList.map( (product) => {
         return <div>{product.name}</div>
